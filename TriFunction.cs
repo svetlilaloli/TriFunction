@@ -8,7 +8,6 @@ namespace TriFunction
         {
             int n = int.Parse(Console.ReadLine());
             string[] names = Console.ReadLine().Split();
-            //Func<string, int, bool> isEqualOrGrater = IsEqualOrGrater;
             Console.WriteLine(FirstEqualOrGrater(names, n, IsEqualOrGrater));
         }
         static string FirstEqualOrGrater(string[] names, int n, Func<string, int, bool> isEqualOrGrater)
